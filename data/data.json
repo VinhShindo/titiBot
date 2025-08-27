@@ -1,0 +1,1062 @@
+[
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Coca-Cola vị nguyên bản lon 320ml",
+    "mo_ta": "Nước ngọt có ga hương cola truyền thống, đóng lon dung tích 320ml.",
+    "gia": "12.000 đ",
+    "loi_khuyen": "Thích hợp để giải khát hàng ngày, ngon hơn khi uống lạnh.",
+    "loi_ich": "Hương vị cola đậm đà sảng khoái, cung cấp năng lượng tức thì từ đường và caffeine.",
+    "thuong_hieu": "Coca-Cola",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ngọt có ga",
+      "the_tich": 320,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "caffeine",
+        "đường"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Pepsi Cola lon 330ml",
+    "mo_ta": "Nước ngọt có ga hương cola sảng khoái, phiên bản lon 330ml.",
+    "gia": "10.000 đ",
+    "loi_khuyen": "Dùng làm món uống giải khát lúc tiệc tùng hoặc bàn ăn, uống lạnh khi uống sẽ ngon hơn.",
+    "loi_ich": "Hương cola thanh mát, giúp giải khát và cung cấp đường năng lượng nhanh chóng.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ngọt có ga",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "caffeine",
+        "đường"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": " lon 330ml",
+    "mo_ta": "Nước ngọt không màu có ga, hương chanh giải khát, đóng lon 330ml.",
+    "gia": "9.000 đ",
+    "loi_khuyen": "Phù hợp khi cần một đồ uống giải khát không chứa caffeine, ngon hơn khi uống lạnh.",
+    "loi_ich": "Hương vị chanh tươi mát, giúp giải cơn khát và mang lại cảm giác sảng khoái.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ngọt có ga",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "hương chanh tự nhiên"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Mirinda Cam lon 330ml",
+    "mo_ta": "Nước ngọt có ga hương cam ngọt lịm, lon 330ml dễ uống.",
+    "gia": "8.000 đ",
+    "loi_khuyen": "Thích hợp cho trẻ em và người thích hương vị trái cây ngọt ngào, dùng uống làm mát cơ thể.",
+    "loi_ich": "Vị cam thơm ngọt tự nhiên, giúp giải khát và bổ sung vitamin C nhẹ.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ngọt có ga",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "hương cam tự nhiên"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Fanta Cam chai 500ml",
+    "mo_ta": "Nước ngọt có ga vị cam, chai nhựa 500ml tiện dụng chia sẻ.",
+    "gia": "12.000 đ",
+    "loi_khuyen": "Phù hợp trong các buổi liên hoan, picnic có nhiều người, có thể chia sẻ cho nhiều người cùng thưởng thức.",
+    "loi_ich": "Vị cam cực kỳ ngọt ngào, đóng chai lớn tiết kiệm, phù hợp cho chia sẻ.",
+    "thuong_hieu": "Coca-Cola",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ngọt có ga",
+      "the_tich": 500,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "hương cam tự nhiên"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Red Bull (Bò húc) chai 250ml",
+    "mo_ta": "Nước tăng lực có ga vị ngọt, chai thủy tinh 250ml, thương hiệu Red Bull.",
+    "gia": "10.000 đ",
+    "loi_khuyen": "Dùng khi cần bổ sung năng lượng nhanh, thích hợp cho lái xe đường dài hoặc lúc làm việc mệt mỏi.",
+    "loi_ich": "Chứa caffeine và vitamin B giúp tỉnh táo, bổ sung năng lượng tức thời cho cơ thể.",
+    "thuong_hieu": "Red Bull",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước tăng lực",
+      "the_tich": 250,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "caffeine",
+        "taurine",
+        "vitamin B"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Sting dâu đỏ chai 330ml",
+    "mo_ta": "Nước tăng lực màu đỏ hương dâu, chai nhựa 330ml phổ biến tại Việt Nam.",
+    "gia": "9.000 đ",
+    "loi_khuyen": "Thích hợp cho những khi cần tỉnh táo và tăng cường độ tập trung nhanh, dùng lạnh để ngon hơn.",
+    "loi_ich": "Vị dâu ngọt dễ uống, có chứa nhóm vitamin B và taurin giúp bù năng lượng.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước tăng lực",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "taurine",
+        "vitamin B",
+        "đường"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Trà xanh 0° Chai 500ml",
+    "mo_ta": "Trà xanh đóng chai 500ml, hương vị nhạt dịu, không chứa chất bảo quản.",
+    "gia": "7.000 đ",
+    "loi_khuyen": "Thích hợp uống giải nhiệt trong ngày nóng, phù hợp cho mọi đối tượng từ trẻ nhỏ đến người lớn.",
+    "loi_ich": "Hương trà xanh tự nhiên, giúp thanh mát cơ thể và giải khát hiệu quả.",
+    "thuong_hieu": "Tân Hiệp Phát",
+    "thuoc_tinh": {
+      "loai_san_pham": "Trà đóng chai",
+      "the_tich": 500,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "trà xanh"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Trà xanh C2 chai 330ml",
+    "mo_ta": "Trà xanh đóng chai nhựa 330ml, có độ ngọt vừa phải, hương trà thanh mát.",
+    "gia": "6.000 đ",
+    "loi_khuyen": "Phù hợp giải khát, giữ tỉnh táo trong giờ học hoặc làm việc.",
+    "loi_ich": "Hương trà mát lạnh, giúp giảm cảm giác khát và thanh lọc cơ thể.",
+    "thuong_hieu": "URC",
+    "thuoc_tinh": {
+      "loai_san_pham": "Trà đóng chai",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "trà xanh"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước tăng lực Number 1 330ml",
+    "mo_ta": "Nước tăng lực có ga hương trái cây, chai PET 330ml, thương hiệu Number 1.",
+    "gia": "8.000 đ",
+    "loi_khuyen": "Dùng khi cần tăng cường sức lực ngay lập tức, phù hợp cho giới trẻ năng động.",
+    "loi_ich": "Bổ sung năng lượng nhanh vào cơ thể, giúp tỉnh táo và đánh thức tinh thần.",
+    "thuong_hieu": "Tân Hiệp Phát",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước tăng lực",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "caffeine",
+        "taurine",
+        "vitamin B"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước cam ép Twister chai 1L",
+    "mo_ta": "Nước cam ép hộp giấy 1 lít, bổ sung vitamin C từ cam tươi.",
+    "gia": "35.000 đ",
+    "loi_khuyen": "Ngon hơn khi uống lạnh, thích hợp cho cả gia đình dùng trong bữa sáng hoặc kèm bữa ăn.",
+    "loi_ich": "Giàu vitamin C từ cam tự nhiên, hương vị cam tươi mát, tốt cho sức khỏe.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ép",
+      "the_tich": 1,
+      "don_vi_the_tich": "L",
+      "thanh_phan": [
+        "nước cam tươi",
+        "vitamin C"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước khoáng Lavie chai 500ml",
+    "mo_ta": "Nước khoáng thiên nhiên đóng chai 500ml, không mùi vị, có bổ sung khoáng chất.",
+    "gia": "5.000 đ",
+    "loi_khuyen": "Dùng để bù nước và khoáng chất sau khi vận động hoặc trẻ em đi học.",
+    "loi_ich": "Bù đầy đủ nước cho cơ thể, bổ sung khoáng giúp duy trì sự cân bằng.",
+    "thuong_hieu": "Nestlé",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước khoáng",
+      "the_tich": 500,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "khoáng chất tự nhiên"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước tinh khiết Aquafina chai 500ml",
+    "mo_ta": "Nước tinh khiết đã qua xử lý, đóng chai 500ml, không mùi vị, an toàn cho sức khỏe.",
+    "gia": "4.000 đ",
+    "loi_khuyen": "Phù hợp dùng trong các hoạt động thể thao, du lịch vì chai nhỏ gọn dễ mang theo.",
+    "loi_ich": "Cung cấp nước sạch lành, giúp giải cơn khát và duy trì độ ẩm cho cơ thể.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước tinh khiết",
+      "the_tich": 500,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "nước đã qua xử lý"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Sữa tươi Vinamilk có đường 1L",
+    "mo_ta": "Sữa bò tươi tiệt trùng, hộp 1 lít, bổ sung canxi và vitamin D.",
+    "gia": "31.000 đ",
+    "loi_khuyen": "Phù hợp cho bữa sáng hoặc pha chế các món ăn, dùng lạnh sẽ ngon hơn.",
+    "loi_ich": "Giàu canxi và protein, tốt cho xương và sự phát triển cơ thể.",
+    "thuong_hieu": "Vinamilk",
+    "thuoc_tinh": {
+      "loai_san_pham": "Sữa tươi",
+      "the_tich": 1,
+      "don_vi_the_tich": "L",
+      "thanh_phan": [
+        "sữa bò tươi",
+        "vitamin D",
+        "canxi"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Sữa tươi TH True Milk tính bổ sung 1L",
+    "mo_ta": "Sữa tươi thanh trùng TH True Milk, hộp 1 lít, giàu dạng dầu động và DHA.",
+    "gia": "34.000 đ",
+    "loi_khuyen": "Phù hợp cho trẻ em và người cần bổ sung dầu động, nên dùng hàng ngày để duy trì sức khỏe.",
+    "loi_ich": "Chứa nhiều DHA và canxi, hỗ trợ phát triển trí não và thể chất.",
+    "thuong_hieu": "TH True Milk",
+    "thuoc_tinh": {
+      "loai_san_pham": "Sữa tươi",
+      "the_tich": 1,
+      "don_vi_the_tich": "L",
+      "thanh_phan": [
+        "sữa bò tươi",
+        "DHA",
+        "canxi"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Sữa đậu nành Fami hộp 200ml",
+    "mo_ta": "Sữa đậu nành đóng hộp giấy 200ml, hương vị béo ngậy, giàu đạm thực vật.",
+    "gia": "6.000 đ",
+    "loi_khuyen": "Dùng làm bữa phụ giải khát, thích hợp cho người không uống được sữa bò.",
+    "loi_ich": "Giàu protein thực vật và isoflavone, hỗ trợ tốt cho sức khỏe tim mạch.",
+    "thuong_hieu": "Vinasoy",
+    "thuoc_tinh": {
+      "loai_san_pham": "Sữa đậu nành",
+      "the_tich": 200,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "đạm thực vật",
+        "isoflavone"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Cà phê hòa tan Trung Nguyên G7 (hộp 20 gói)",
+    "mo_ta": "Cà phê đen hòa tan 3in1, hộp có 20 gói, hương vị đậm đà.",
+    "gia": "45.000 đ",
+    "loi_khuyen": "Tiện lợi cho dân văn phòng cần uống cà phê nhanh, chỉ cần pha với nước nóng.",
+    "loi_ich": "Hương cà phê rang xay thơm ngon, có độ ngọt vừa phải và giúp tỉnh táo tinh thần.",
+    "thuong_hieu": "Trung Nguyên",
+    "thuoc_tinh": {
+      "loai_san_pham": "Cà phê hòa tan",
+      "so_luong": 20,
+      "don_vi_so_luong": "gói",
+      "thanh_phan": [
+        "cà phê",
+        "đường",
+        "sữa"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Cà phê hòa tan Nescafé 3in1 (hộp 24 gói)",
+    "mo_ta": "Cà phê hòa tan 3in1 của Nescafé, hộp 24 gói, hương vị hài hòa giữa cà phê và sữa.",
+    "gia": "50.000 đ",
+    "loi_khuyen": "Phù hợp cho người thích uống cà phê ngọt với ít thời gian pha chế.",
+    "loi_ich": "Vị cà phê sữa đậm đà, tiện dụng mang đi làm hoặc du lịch.",
+    "thuong_hieu": "Nescafé",
+    "thuoc_tinh": {
+      "loai_san_pham": "Cà phê hòa tan",
+      "so_luong": 24,
+      "don_vi_so_luong": "gói",
+      "thanh_phan": [
+        "cà phê",
+        "đường",
+        "sữa"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Trà đỏ Lipton túi lọc (hộp 25 gói)",
+    "mo_ta": "Trà đỏ đóng gói lọc tiện lợi, hộp 25 túi, hương vị trà đậm đà.",
+    "gia": "27.000 đ",
+    "loi_khuyen": "Dùng pha uống nóng vào buổi sáng hoặc chiều, thêm ít chanh và đường để ngon hơn.",
+    "loi_ich": "Tiện lợi, dễ pha chế, mùi vị trà đậm giúp tỉnh táo tinh thần.",
+    "thuong_hieu": "Lipton",
+    "thuoc_tinh": {
+      "loai_san_pham": "Trà túi lọc",
+      "so_luong": 25,
+      "don_vi_so_luong": "gói",
+      "thanh_phan": [
+        "trà đen"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Bột ca cao Milo (hộp 400g)",
+    "mo_ta": "Bột ca cao thương hiệu Milo, hộp thiếc 400g, pha đồ uống dinh dưỡng cho trẻ.",
+    "gia": "60.000 đ",
+    "loi_khuyen": "Pha với sữa nóng hoặc đá tùy khẩu vị, phù hợp cho trẻ em và người chơi thể thao.",
+    "loi_ich": "Giàu canxi, vitamin và sắt; hương vị socola béo ngậy giúp cung cấp năng lượng.",
+    "thuong_hieu": "Nestlé",
+    "thuoc_tinh": {
+      "loai_san_pham": "Bột ca cao",
+      "khoi_luong": 400,
+      "don_vi_khoi_luong": "g",
+      "thanh_phan": [
+        "canxi",
+        "vitamin",
+        "sắt",
+        "socola"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Ngũ cốc dinh dưỡng Ovaltine (hộp 400g)",
+    "mo_ta": "Bột ngũ cốc hương sữa socola Ovaltine, hộp 400g, bổ sung 15 loại vitamin và khoáng chất.",
+    "gia": "65.000 đ",
+    "loi_khuyen": "Uống vào buổi sáng hoặc giải lao để bổ sung năng lượng, thích hợp cho trẻ đang phát triển.",
+    "loi_ich": "Bổ sung nhiều vitamin giúp phát triển trí não và cơ thể, hương vị ngọt ngào dễ uống.",
+    "thuong_hieu": "Ovaltine",
+    "thuoc_tinh": {
+      "loai_san_pham": "Ngũ cốc",
+      "khoi_luong": 400,
+      "don_vi_khoi_luong": "g",
+      "thanh_phan": [
+        "vitamin",
+        "khoáng chất",
+        "socola"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Bia Heineken lon 330ml",
+    "mo_ta": "Bia lager cao cấp nhập khẩu, lon 330ml, nồng độ cồn 5%.",
+    "gia": "20.000 đ",
+    "loi_khuyen": "Phù hợp cho các buổi tiệc, liên hoan; nên uống lạnh và có trách nhiệm khi sử dụng đồ có cồn.",
+    "loi_ich": "Hương vị bia mịn đặc trưng, chất lượng quốc tế ổn định, mang lại trải nghiệm sảng khoái.",
+    "thuong_hieu": "Heineken",
+    "thuoc_tinh": {
+      "loai_san_pham": "Bia",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "nong_do_con": "5%"
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Bia Tiger lon 330ml",
+    "mo_ta": "Bia lager châu Á, lon 330ml, nồng độ cồn ~5%, hương vị đậm mà không gắt.",
+    "gia": "18.000 đ",
+    "loi_khuyen": "Thưởng thức khi uống lạnh, thích hợp cho các buổi xem thể thao và họp mặt bạn bè.",
+    "loi_ich": "Vị bia đậm đà dễ uống, giá thành phải chăng, phù hợp khẩu vị đông đảo.",
+    "thuong_hieu": "Tiger",
+    "thuoc_tinh": {
+      "loai_san_pham": "Bia",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "nong_do_con": "~5%"
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Bia Budweiser lon 330ml",
+    "mo_ta": "Bia lager Mỹ, lon 330ml, nổi tiếng với hương vị nhẹ và độ cồn ~5%.",
+    "gia": "19.000 đ",
+    "loi_khuyen": "Ngon hơn khi uống lạnh; phù hợp cho những ai muốn thưởng thức bia phong cách Mỹ.",
+    "loi_ich": "Hương vị bia nhẹ, dễ uống, thương hiệu toàn cầu đã được khẳng định.",
+    "thuong_hieu": "Budweiser",
+    "thuoc_tinh": {
+      "loai_san_pham": "Bia",
+      "the_tich": 330,
+      "don_vi_the_tich": "ml",
+      "nong_do_con": "~5%"
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước uống thể thao Revive 500ml",
+    "mo_ta": "Nước uống bù điện giải, chai 500ml, hương chanh muối nhẹ.",
+    "gia": "10.000 đ",
+    "loi_khuyen": "Dùng sau khi vận động mất nhiều mồ hôi để bổ sung điện giải, phù hợp cho người chơi thể thao.",
+    "loi_ich": "Bổ sung các khoáng chất như Na+, K+ giúp phục hồi thể lực nhanh, giải khát tức thì.",
+    "thuong_hieu": "PepsiCo",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước uống thể thao",
+      "the_tich": 500,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "điện giải",
+        "chanh muối"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước tăng lực Monster Energy 355ml",
+    "mo_ta": "Nước tăng lực lon 355ml thương hiệu Monster, vị thanh ngọt với caffeine cao.",
+    "gia": "28.000 đ",
+    "loi_khuyen": "Thích hợp cho người cần tỉnh táo trong thời gian dài, như lái xe đêm hoặc làm việc khuya.",
+    "loi_ich": "Hàm lượng caffeine cao giúp tăng tập trung, dạng lon lớn phù hợp cho tình huống cần nhiều năng lượng.",
+    "thuong_hieu": "Monster",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước tăng lực",
+      "the_tich": 355,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "caffeine",
+        "taurine"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Trà Ô Long Tea+ Plus chai 500ml",
+    "mo_ta": "Trà ô long chất lượng đóng chai 500ml, không lên men, hương vị thanh tịnh.",
+    "gia": "8.000 đ",
+    "loi_khuyen": "Dùng sau bữa ăn giúp tiêu hóa, phù hợp cho người muốn thưởng trà nhẹ nhàng không quá đắng.",
+    "loi_ich": "Chứa chất OTPP giúp giảm hấp thu chất béo, hương trà ô long cao cấp giúp thư giãn.",
+    "thuong_hieu": "Suntory Pepsico",
+    "thuoc_tinh": {
+      "loai_san_pham": "Trà đóng chai",
+      "the_tich": 500,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "trà ô long",
+        "OTPP"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Trà thảo mộc Dr Thanh chai 350ml",
+    "mo_ta": "Thảo mộc giải nhiệt đóng chai 350ml, kết hợp 9 loại thảo mộc thiên nhiên.",
+    "gia": "10.000 đ",
+    "loi_khuyen": "Thích hợp giải nhiệt cơ thể vào ngày nóng, phù hợp cho người hay bị nóng trong.",
+    "loi_ich": "Thành phần thảo mộc (như hoa cúc, cam thảo...) giúp thanh lọc, không chứa chất bảo quản.",
+    "thuong_hieu": "Tân Hiệp Phát",
+    "thuoc_tinh": {
+      "loai_san_pham": "Trà thảo mộc",
+      "the_tich": 350,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "hoa cúc",
+        "cam thảo"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước sâm bí đao Wonderfarm lon 310ml",
+    "mo_ta": "Thức uống sâm bí đao đóng lon 310ml, hương ngọt thanh mát, truyền thống.",
+    "gia": "7.000 đ",
+    "loi_khuyen": "Dùng làm nước giải khát mát gan, thích hợp cho mùa hè nóng bức.",
+    "loi_ich": "Nguyên liệu bí đao và thảo mộc tự nhiên giúp giải nhiệt, không gây nóng trong người.",
+    "thuong_hieu": "Wonderfarm",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước sâm",
+      "the_tich": 310,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "bí đao",
+        "thảo mộc"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước yến sào Khánh Hòa lon 190ml",
+    "mo_ta": "Nước uống chế biến từ tổ yến, lon 190ml, bổ sung collagen và chất dinh dưỡng.",
+    "gia": "30.000 đ",
+    "loi_khuyen": "Dùng để bổ sung dinh dưỡng, phù hợp biếu tặng người thân và dùng trong các dịp lễ.",
+    "loi_ich": "Giàu protein và axit amin từ tổ yến, giúp bổ dưỡng sức khỏe và làm đẹp da.",
+    "thuong_hieu": "Sanest",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước yến",
+      "the_tich": 190,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "tổ yến",
+        "collagen"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Nước ngọt xá xị Chương Dương chai 390ml",
+    "mo_ta": "Nước ngọt có ga hương xá xị (sarsaparilla) truyền thống, chai thủy tinh 390ml.",
+    "gia": "10.000 đ",
+    "loi_khuyen": "Thích hợp cho người thích hương vị đồ uống cổ điển, nên uống lạnh khi thưởng thức.",
+    "loi_ich": "Hương vị xá xị độc đáo, giúp đổi khẩu vị khi đã quá quen với cola hay cam.",
+    "thuong_hieu": "Chương Dương",
+    "thuoc_tinh": {
+      "loai_san_pham": "Nước ngọt có ga",
+      "the_tich": 390,
+      "don_vi_the_tich": "ml",
+      "thanh_phan": [
+        "xá xị",
+        "đường"
+      ]
+    }
+  },
+  {
+    "linh_vuc": "Tiêu dùng",
+    "ten": "Sữa uống lên men Yakult (lốc 5 chai x 65ml)",
+    "mo_ta": "Sữa chua uống lên men tự nhiên, gồm 5 chai nhỏ 65ml, giàu lợi khuẩn probiotic.",
+    "gia": "20.000 đ",
+    "loi_khuyen": "Nên uống mỗi ngày để tốt cho tiêu hóa, phù hợp cho cả trẻ em và người lớn.",
+    "loi_ich": "Bổ sung hàng tỷ vi khuẩn có ích cho ruột, giúp cải thiện hệ tiêu hóa.",
+    "thuong_hieu": "Yakult",
+    "thuoc_tinh": {
+      "loai_san_pham": "Sữa lên men",
+      "the_tich": 65,
+      "don_vi_the_tich": "ml",
+      "so_luong": 5,
+      "don_vi_so_luong": "chai"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone 14 Pro Max 128GB",
+    "mo_ta": "Điện thoại flagship của Apple (2022), màn hình OLED 6.7 inch ProMotion, chip A16 Bionic, cụm 3 camera 48MP.",
+    "gia": "33.000.000 đ",
+    "loi_khuyen": "Phù hợp người dùng cao cấp cần hiệu năng mạnh và camera xuất sắc, sẵn sàng chi trả giá cao để trải nghiệm công nghệ mới nhất.",
+    "loi_ich": "Hiệu năng hàng đầu thị trường, camera chụp ảnh chuyên nghiệp cả ngày lẫn đêm, màn hình 120Hz mượt mà, thời lượng pin cải thiện rõ rệt.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "A16 Bionic",
+      "ram": "6GB",
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.7,
+      "cong_nghe_man_hinh": "OLED ProMotion"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone 14 128GB",
+    "mo_ta": "Smartphone Apple màn hình OLED 6.1 inch, chip A15 Bionic, camera kép 12MP, hỗ trợ 5G, thiết kế tai thỏ quen thuộc.",
+    "gia": "22.000.000 đ",
+    "loi_khuyen": "Thích hợp cho người dùng muốn một chiếc iPhone mới với hiệu năng cao, camera tốt nhưng không cần đến các tính năng Pro.",
+    "loi_ich": "Hiệu năng nhanh nhẹn nhờ chip A15, hệ điều hành iOS mượt mà và ổn định, camera chụp ảnh đẹp trong nhiều điều kiện, thời lượng pin đủ dùng cả ngày.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "A15 Bionic",
+      "ram": "4GB",
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.1,
+      "cong_nghe_man_hinh": "OLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone 13 128GB",
+    "mo_ta": "Điện thoại Apple 2021, màn hình 6.1 inch OLED, chip A15 Bionic, camera kép 12MP, thiết kế vuông vắn sang trọng.",
+    "gia": "18.000.000 đ",
+    "loi_khuyen": "Phù hợp người dùng muốn trải nghiệm hiệu năng mạnh của iPhone nhưng có thể chấp nhận không cần phiên bản mới nhất.",
+    "loi_ich": "Hiệu năng vẫn thuộc top đầu, camera chụp ảnh xuất sắc, nhiều năm được hỗ trợ cập nhật iOS, giá hợp lý hơn so với model mới nhất.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "A15 Bionic",
+      "ram": "4GB",
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.1,
+      "cong_nghe_man_hinh": "OLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone 13 mini 128GB",
+    "mo_ta": "Phiên bản iPhone 13 màn hình nhỏ 5.4 inch, chip A15 Bionic mạnh mẽ như bản thường, camera kép 12MP, thiết kế nhỏ gọn bỏ túi.",
+    "gia": "15.000.000 đ",
+    "loi_khuyen": "Phù hợp người thích điện thoại nhỏ gọn vừa tay nhưng vẫn muốn hiệu năng và camera cao cấp của iPhone.",
+    "loi_ich": "Kích thước nhỏ dễ thao tác một tay, hiệu năng không thua kém các mẫu lớn, camera chất lượng cao, màu sắc phong phú trẻ trung.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "A15 Bionic",
+      "ram": "4GB",
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 5.4,
+      "cong_nghe_man_hinh": "OLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone SE 2022 (64GB)",
+    "mo_ta": "iPhone SE thế hệ 3 (2022), thiết kế cổ điển 4.7 inch với nút Home Touch ID, chip A15 Bionic, camera đơn 12MP.",
+    "gia": "11.000.000 đ",
+    "loi_khuyen": "Dành cho người dùng yêu thích thiết kế iPhone truyền thống, cần máy nhỏ gọn, hiệu năng mạnh và giá dễ chịu trong hệ sinh thái Apple.",
+    "loi_ich": "Hiệu năng flagship trong thân máy gọn nhẹ, chạy iOS mới nhất mượt mà, có Touch ID tiện dụng, mức giá phải chăng so với iPhone khác.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "A15 Bionic",
+      "ram": "4GB",
+      "dung_luong_luu_tru": 64,
+      "kich_thuoc_man_hinh": 4.7,
+      "cong_nghe_man_hinh": "Retina HD"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone 12 64GB",
+    "mo_ta": "Điện thoại Apple 2020, màn hình OLED 6.1 inch, chip A14 Bionic, camera kép 12MP, hỗ trợ 5G, thiết kế viền vuông.",
+    "gia": "14.000.000 đ",
+    "loi_khuyen": "Vẫn là lựa chọn tốt trong tầm giá cho ai muốn một chiếc iPhone màn hình đẹp, hiệu năng cao nhưng không cần model mới nhất.",
+    "loi_ich": "Màn hình OLED sắc nét, hiệu năng mượt mà từ chip A14 đủ dùng nhiều năm, camera Night Mode cho ảnh tối chất lượng, hỗ trợ 5G tương lai.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2020,
+    "thuoc_tinh": {
+      "chip": "A14 Bionic",
+      "ram": "4GB",
+      "dung_luong_luu_tru": 64,
+      "kich_thuoc_man_hinh": 6.1,
+      "cong_nghe_man_hinh": "OLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Apple iPhone 11 64GB",
+    "mo_ta": "Chiếc iPhone phổ biến 2019, màn hình LCD 6.1 inch Liquid Retina, chip A13 Bionic, camera kép 12MP (góc rộng & siêu rộng).",
+    "gia": "10.500.000 đ",
+    "loi_khuyen": "Phù hợp người dùng muốn trải nghiệm iPhone màn hình lớn, hiệu năng ổn định, camera đa dụng với giá dễ tiếp cận hơn các mẫu mới.",
+    "loi_ich": "Chip A13 vẫn xử lý mượt các tác vụ hiện tại, camera kép chụp góc rộng thú vị, nhiều tùy chọn màu sắc trẻ trung, có Face ID tiện lợi.",
+    "thuong_hieu": "Apple",
+    "nam_ra_mat": 2019,
+    "thuoc_tinh": {
+      "chip": "A13 Bionic",
+      "ram": "4GB",
+      "dung_luong_luu_tru": 64,
+      "kich_thuoc_man_hinh": 6.1,
+      "cong_nghe_man_hinh": "Liquid Retina HD"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy S22 Ultra 5G (8GB|128GB)",
+    "mo_ta": "Flagship Samsung 2022, màn hình Dynamic AMOLED 6.8 inch 120Hz, S-Pen tích hợp, 4 camera sau 108MP, chip Snapdragon 8 Gen 1.",
+    "gia": "28.000.000 đ",
+    "loi_khuyen": "Lý tưởng cho người dùng doanh nhân hoặc sáng tạo nội dung cần bút S-Pen, màn hình lớn đẹp và hệ thống camera chuyên nghiệp.",
+    "loi_ich": "Màn hình lớn xuất sắc cho giải trí và công việc, bút S-Pen đa năng ghi chú và vẽ, camera zoom 100x ấn tượng, hiệu năng mạnh cho đa nhiệm.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 8 Gen 1",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.8,
+      "cong_nghe_man_hinh": "Dynamic AMOLED 2X"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy S22 5G (8GB|128GB)",
+    "mo_ta": "Điện thoại cao cấp Samsung màn hình 6.1 inch Dynamic AMOLED 120Hz, chip Snapdragon 8 Gen 1, 3 camera sau (50MP chính).",
+    "gia": "20.000.000 đ",
+    "loi_khuyen": "Phù hợp người cần một flagship Android nhỏ gọn, cấu hình cao để chơi game, chụp ảnh đẹp nhưng không thích máy quá to.",
+    "loi_ich": "Thiết kế nhỏ vừa tay hiếm có trong thế giới Android cao cấp, hiệu năng đứng top, camera cải tiến chụp đêm tốt, màn hình 120Hz siêu mượt.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 8 Gen 1",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.1,
+      "cong_nghe_man_hinh": "Dynamic AMOLED 2X"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy S21 FE 5G (8GB|256GB)",
+    "mo_ta": "Phiên bản Fan Edition của S21 (2022), màn 6.4 inch AMOLED 120Hz, chip Exynos 2100, camera sau 12MP+12MP+8MP, pin 4500mAh.",
+    "gia": "16.000.000 đ",
+    "loi_khuyen": "Dành cho người muốn trải nghiệm tính năng flagship Samsung với mức giá mềm hơn, đặc biệt thích hợp để chơi game và xem phim.",
+    "loi_ich": "Màn hình 120Hz mượt mà trong tầm giá, hiệu năng cao đủ sức chiến game nặng, camera nhiều tính năng (góc rộng, tele), pin cả ngày và sạc nhanh.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Exynos 2100",
+      "ram": 8,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.4,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy Note20 Ultra (8GB|256GB)",
+    "mo_ta": "Phablet Samsung 2020, màn hình 6.9 inch Dynamic AMOLED 120Hz, bút S Pen, camera chính 108MP, zoom 50X, thiết kế cao cấp.",
+    "gia": "18.000.000 đ",
+    "loi_khuyen": "Phù hợp người dùng yêu thích dòng Note với bút S Pen, cần điện thoại màn hình rất lớn cho công việc, ghi chú nhiều và chụp ảnh chuyên nghiệp.",
+    "loi_ich": "Màn hình khổng lồ hiển thị xuất sắc, bút S Pen đa năng, camera zoom xa tốt, hiệu năng và đa nhiệm mạnh mẽ.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2020,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 865+",
+      "ram": 8,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.9,
+      "cong_nghe_man_hinh": "Dynamic AMOLED 2X"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy Z Fold3 5G (12GB|256GB)",
+    "mo_ta": "Điện thoại gập Samsung thế hệ 3, mở ra thành tablet 7.6 inch Dynamic AMOLED 120Hz, màn hình ngoài 6.2 inch, hỗ trợ S-Pen Fold Edition.",
+    "gia": "42.000.000 đ",
+    "loi_khuyen": "Dành cho người đam mê công nghệ mới, muốn trải nghiệm điện thoại gập đa dụng, sẵn sàng đầu tư chi phí cao.",
+    "loi_ich": "Thiết kế độc đáo đa chức năng, màn hình lớn cho năng suất và giải trí tuyệt vời, cấu hình đỉnh cao, khả năng chống nước IPX8.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 888",
+      "ram": 12,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 7.6,
+      "cong_nghe_man_hinh": "Dynamic AMOLED 2X"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy Z Flip3 5G (8GB|128GB)",
+    "mo_ta": "Điện thoại gập vỏ sò Samsung 2021, màn hình chính 6.7 inch Dynamic AMOLED 120Hz, màn hình phụ 1.9 inch, chip Snapdragon 888.",
+    "gia": "24.000.000 đ",
+    "loi_khuyen": "Hợp với người thích phong cách thời trang, nhỏ gọn; máy gập này phù hợp bỏ túi nhỏ, chụp ảnh selfie rảnh tay nhờ bản lề cố định.",
+    "loi_ich": "Kiểu dáng gập nhỏ gọn độc đáo, màn hình đẹp và mượt, hiệu năng mạnh mẽ, tạo cá tính cho người dùng, chụp ảnh selfie chất lượng bằng camera sau.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 888",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.7,
+      "cong_nghe_man_hinh": "Dynamic AMOLED 2X"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy A53 5G (8GB|128GB)",
+    "mo_ta": "Điện thoại tầm trung Samsung 2022, màn hình 6.5 inch Super AMOLED 120Hz, chip Exynos 1280 8 nhân, 4 camera sau 64MP, pin 5000mAh sạc 33W.",
+    "gia": "9.000.000 đ",
+    "loi_khuyen": "Phù hợp người dùng trẻ cần máy cân bằng giữa hiệu năng và camera, màn hình đẹp để giải trí, pin trâu cho cả ngày dài.",
+    "loi_ich": "Màn hình Super AMOLED rực rỡ, tần số quét cao cho trải nghiệm mượt, cụm 4 camera đa năng chụp tốt nhiều bối cảnh, pin lớn kèm sạc nhanh rất tiện dụng.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Exynos 1280",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.5,
+      "cong_nghe_man_hinh": "Super AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy A13 (4GB|128GB)",
+    "mo_ta": "Điện thoại phổ thông Samsung 2022, màn hình 6.6 inch PLS LCD, chip Exynos 850, 4 camera sau 50MP, pin 5000mAh.",
+    "gia": "4.000.000 đ",
+    "loi_khuyen": "Thích hợp cho học sinh, sinh viên hoặc người lớn tuổi cần smartphone màn hình to, pin bền, hiệu năng đủ dùng các tác vụ cơ bản với ngân sách hạn chế.",
+    "loi_ich": "Giá thành phải chăng, màn hình lớn rõ ràng, camera chính 50MP chụp ảnh tốt trong điều kiện đủ sáng, pin khỏe sử dụng thoải mái 1-2 ngày.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Exynos 850",
+      "ram": 4,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.6,
+      "cong_nghe_man_hinh": "PLS LCD"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Samsung Galaxy S20 FE 4G (8GB|256GB)",
+    "mo_ta": "Phiên bản Fan Edition của dòng S20 (2020), màn hình 6.5 inch Super AMOLED 120Hz, chip Snapdragon 865, camera 12MP+8MP+12MP, chống nước IP68.",
+    "gia": "11.000.000 đ",
+    "loi_khuyen": "Vẫn đáng mua trong tầm giá nhờ cấu hình flagship 2020, phù hợp game thủ và người thích chụp ảnh với ngân sách vừa phải.",
+    "loi_ich": "Màn hình 120Hz mượt mà, hiệu năng từ Snapdragon 865 xử lý tốt mọi tác vụ, camera tele 3x quang học hiếm trong tầm giá, thiết kế trẻ trung nhiều màu.",
+    "thuong_hieu": "Samsung",
+    "nam_ra_mat": 2020,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 865",
+      "ram": 8,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.5,
+      "cong_nghe_man_hinh": "Super AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Xiaomi 12 Pro (12GB|256GB)",
+    "mo_ta": "Điện thoại cao cấp Xiaomi 2022, màn hình AMOLED 6.73 inch 120Hz LTPO, chip Snapdragon 8 Gen1, 3 camera 50MP, sạc nhanh 120W.",
+    "gia": "19.000.000 đ",
+    "loi_khuyen": "Lý tưởng cho người muốn cấu hình cực mạnh, màn hình đẹp và sạc siêu nhanh, không ngại dùng thương hiệu Trung Quốc với giá cạnh tranh.",
+    "loi_ich": "Hiệu năng top đầu Android, màn hình lớn 2K sống động, bộ 3 camera chất lượng linh hoạt, sạc 120W đầy pin chỉ trong khoảng 20 phút rất tiện lợi.",
+    "thuong_hieu": "Xiaomi",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 8 Gen 1",
+      "ram": 12,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.73,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Xiaomi Redmi Note 11 (6GB|128GB)",
+    "mo_ta": "Smartphone tầm trung Xiaomi 2022, màn hình AMOLED 6.43 inch 90Hz, chip Snapdragon 680, 4 camera 50MP, pin 5000mAh sạc 33W.",
+    "gia": "5.000.000 đ",
+    "loi_khuyen": "Dành cho người tìm kiếm một chiếc điện thoại nhiều tính năng ở mức giá thấp: màn hình đẹp, pin trâu, camera đầy đủ các ống kính.",
+    "loi_ich": "Màn hình AMOLED hiếm có trong phân khúc, hiệu năng đủ mượt cho tác vụ hàng ngày, 4 camera đa dụng, pin lớn đi kèm sạc nhanh.",
+    "thuong_hieu": "Xiaomi",
+    "nam_ra_mat": 2022,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 680",
+      "ram": 6,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.43,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Xiaomi Poco X3 Pro (8GB|256GB)",
+    "mo_ta": "Điện thoại Xiaomi Poco X3 Pro, màn hình 6.67 inch IPS 120Hz, chip Snapdragon 860, camera 48MP, pin 5160mAh, loa kép.",
+    "gia": "6.500.000 đ",
+    "loi_khuyen": "Phù hợp game thủ giá rẻ: hiệu năng rất mạnh trong tầm giá, tần số quét cao, pin trâu, đánh đổi một chút ở camera tầm trung.",
+    "loi_ich": "Hiệu năng gần ngang flagship năm trước nhờ Snapdragon 860, chơi game mượt, màn hình 120Hz cho trải nghiệm nhanh nhạy, pin lớn thoải mái cày game.",
+    "thuong_hieu": "Xiaomi",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 860",
+      "ram": 8,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.67,
+      "cong_nghe_man_hinh": "IPS"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Xiaomi Mi 11 Lite (8GB|128GB)",
+    "mo_ta": "Điện thoại cận cao cấp Xiaomi 2021, màn hình AMOLED 6.55 inch 90Hz, chip Snapdragon 732G, camera 64MP, thiết kế mỏng nhẹ 6.8mm.",
+    "gia": "7.000.000 đ",
+    "loi_khuyen": "Hợp với người thích điện thoại mỏng nhẹ, kiểu dáng thời trang, cấu hình khá tốt để giải trí và chụp ảnh đẹp mà không quá đắt.",
+    "loi_ich": "Thiết kế siêu mỏng và nhẹ cầm thoải mái, màn hình AMOLED hiển thị rực rỡ, camera chính 64MP chụp ảnh sắc nét, hiệu năng ổn định cho các nhu cầu hàng ngày.",
+    "thuong_hieu": "Xiaomi",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 732G",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.55,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Xiaomi Black Shark 4 (8GB|128GB)",
+    "mo_ta": "Điện thoại gaming Xiaomi Black Shark 4, màn hình AMOLED 6.67 inch 144Hz, chip Snapdragon 870, có trigger vật lý, pin 4500mAh sạc 120W.",
+    "gia": "12.000.000 đ",
+    "loi_khuyen": "Lựa chọn tuyệt vời cho game thủ mobile: hiệu năng cao và phím bấm chuyên game, màn hình siêu mượt, sạc cực nhanh giúp chơi game gần như liên tục.",
+    "loi_ich": "Trigger vật lý mang lại trải nghiệm điều khiển game tốt hơn, màn hình 144Hz và loa stereo nâng tầm giải trí, hiệu năng Snapdragon 870 mạnh và ổn định.",
+    "thuong_hieu": "Xiaomi",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 870",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.67,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "OPPO Find X3 Pro 5G (12GB|256GB)",
+    "mo_ta": "Flagship OPPO 2021, màn hình AMOLED 6.7 inch 120Hz tỷ màu (10-bit), chip Snapdragon 888, 4 camera, sạc nhanh 65W.",
+    "gia": "20.000.000 đ",
+    "loi_khuyen": "Phù hợp người yêu thích công nghệ camera mới (kính hiển vi 60x độc đáo) và màn hình hiển thị màu sắc chuẩn xác, thiết kế đẹp lạ, sẵn sàng đầu tư cao.",
+    "loi_ich": "Màn hình 1 tỷ màu rực rỡ, camera micro chụp ảnh siêu cận độc nhất, hiệu năng mạnh mẽ, sạc nhanh SuperVOOC 65W tiện lợi.",
+    "thuong_hieu": "OPPO",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 888",
+      "ram": 12,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.7,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "OPPO Reno6 Z 5G (8GB|128GB)",
+    "mo_ta": "Điện thoại tầm trung OPPO 2021, màn hình AMOLED 6.43 inch, chip MediaTek Dimensity 800U, 3 camera 64MP, thiết kế vuông vức thời trang.",
+    "gia": "9.500.000 đ",
+    "loi_khuyen": "Dành cho người trẻ thích chụp ảnh chân dung, quay vlog, đồng thời muốn máy có kiểu dáng đẹp và kết nối 5G.",
+    "loi_ich": "Camera chân dung AI xóa phông tự nhiên, hiệu ứng video đẹp, thiết kế Reno Glow lấp lánh thu hút, hiệu năng mượt cho tác vụ hàng ngày, hỗ trợ 5G tốc độ cao.",
+    "thuong_hieu": "OPPO",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "MediaTek Dimensity 800U",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.43,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "OPPO A74 4G (8GB|128GB)",
+    "mo_ta": "Smartphone OPPO phổ thông, màn hình AMOLED 6.43 inch, chip Snapdragon 662, 3 camera 48MP, pin 5000mAh, sạc nhanh 33W.",
+    "gia": "6.500.000 đ",
+    "loi_khuyen": "Phù hợp người dùng cần máy thương hiệu lớn, màn hình đẹp AMOLED, pin lâu cho cả ngày, chụp ảnh đủ tốt, không đòi hỏi hiệu năng chơi game cao.",
+    "loi_ich": "Màn hình AMOLED hiển thị màu sắc sống động, pin 5000mAh thoải mái 2 ngày kèm sạc nhanh, giao diện ColorOS nhiều tính năng hữu ích, camera chính 48MP rõ nét.",
+    "thuong_hieu": "OPPO",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 662",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.43,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Vivo X70 Pro 5G (12GB|256GB)",
+    "mo_ta": "Điện thoại Vivo cao cấp 2021, màn hình AMOLED 6.56 inch 120Hz, chip MediaTek Dimensity 1200, camera Zeiss 50MP gimbal chống rung quang học.",
+    "gia": "18.000.000 đ",
+    "loi_khuyen": "Thích hợp người đam mê nhiếp ảnh di động: hệ thống camera hợp tác Zeiss cho màu ảnh chân thực và chống rung gimbal quay video mượt, cùng thiết kế mỏng đẹp.",
+    "loi_ich": "Chụp ảnh và quay video siêu ổn định nhờ chống rung gimbal 3 trục, chất lượng quang học Zeiss sắc nét, màn hình 120Hz mượt và sống động, sạc nhanh 44W tiện lợi.",
+    "thuong_hieu": "Vivo",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "MediaTek Dimensity 1200",
+      "ram": 12,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.56,
+      "cong_nghe_man_hinh": "AMOLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Vivo Y20 (4GB|64GB)",
+    "mo_ta": "Điện thoại phổ thông Vivo 2020, màn hình 6.51 inch IPS, chip Snapdragon 460, 3 camera 13MP, pin 5000mAh, cảm biến vân tay bên cạnh.",
+    "gia": "3.500.000 đ",
+    "loi_khuyen": "Là lựa chọn kinh tế cho học sinh/sinh viên, đáp ứng tốt các nhu cầu cơ bản (Office, web, học online). Máy bền, dễ nâng cấp, giá vừa phải.",
+    "loi_ich": "Hiệu năng đủ dùng các tác vụ cơ bản, màn hình lớn rõ ràng, pin khỏe sử dụng thoải mái 1-2 ngày, cảm biến vân tay tiện dụng.",
+    "thuong_hieu": "Vivo",
+    "nam_ra_mat": 2020,
+    "thuoc_tinh": {
+      "chip": "Snapdragon 460",
+      "ram": 4,
+      "dung_luong_luu_tru": 64,
+      "kich_thuoc_man_hinh": 6.51,
+      "cong_nghe_man_hinh": "IPS"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Huawei P40 Pro (8GB|256GB)",
+    "mo_ta": "Flagship Huawei 2020, màn hình OLED 6.58 inch 90Hz, chip Kirin 990 5G, 4 camera Leica 50MP, không có dịch vụ Google sẵn.",
+    "gia": "16.000.000 đ",
+    "loi_khuyen": "Phù hợp người thích chụp ảnh điện thoại (camera Leica đỉnh cao) và không ngại việc phải tự cài các ứng dụng Google thủ công.",
+    "loi_ich": "Chất lượng ảnh hàng đầu (nhất là ảnh thiếu sáng và zoom xa), thiết kế sang trọng, hiệu năng mạnh và hỗ trợ 5G, thời lượng pin tốt kèm sạc nhanh 40W.",
+    "thuong_hieu": "Huawei",
+    "nam_ra_mat": 2020,
+    "thuoc_tinh": {
+      "chip": "Kirin 990 5G",
+      "ram": 8,
+      "dung_luong_luu_tru": 256,
+      "kich_thuoc_man_hinh": 6.58,
+      "cong_nghe_man_hinh": "OLED"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Huawei Nova 7i (8GB|128GB)",
+    "mo_ta": "Điện thoại tầm trung Huawei 2020, màn hình 6.4 inch IPS, chip Kirin 810, 4 camera sau 48MP, không hỗ trợ Google Play, pin 4200mAh sạc 40W.",
+    "gia": "5.500.000 đ",
+    "loi_khuyen": "Dành cho người dùng yêu thích phần cứng Huawei (camera, hiệu năng ổn định) và sẵn sàng sử dụng kho ứng dụng thay thế AppGallery.",
+    "loi_ich": "Hiệu năng Kirin 810 mạnh trong tầm giá, camera chụp ảnh đẹp đa dạng thể loại, sạc siêu nhanh 40W tiện lợi, thiết kế trẻ trung với màu sắc gradient bắt mắt.",
+    "thuong_hieu": "Huawei",
+    "nam_ra_mat": 2020,
+    "thuoc_tinh": {
+      "chip": "Kirin 810",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.4,
+      "cong_nghe_man_hinh": "IPS"
+    }
+  },
+  {
+    "linh_vuc": "Công nghệ",
+    "ten": "Google Pixel 6 (8GB|128GB)",
+    "mo_ta": "Điện thoại Google 2021, màn hình OLED 6.4 inch 90Hz, chip Google Tensor, camera kép 50MP, chạy Android gốc, hỗ trợ cập nhật dài hạn.",
+    "gia": "15.000.000 đ",
+    "loi_khuyen": "Lý tưởng cho người muốn trải nghiệm Android gốc, camera chụp ảnh tự động xuất sắc và được cập nhật phần mềm nhanh chóng từ Google.",
+    "loi_ich": "Trải nghiệm phần mềm Android thuần túy, camera xử lý ảnh AI tốt nhất thế giới, hiệu năng ổn định từ chip Tensor, pin tốt đủ dùng cả ngày.",
+    "thuong_hieu": "Google",
+    "nam_ra_mat": 2021,
+    "thuoc_tinh": {
+      "chip": "Google Tensor",
+      "ram": 8,
+      "dung_luong_luu_tru": 128,
+      "kich_thuoc_man_hinh": 6.4,
+      "cong_nghe_man_hinh": "OLED"
+    }
+  }
+]

@@ -1,0 +1,10 @@
+torch
+numpy
+transformers
+sentence-transformers
+faiss-cpu
+duckduckgo-search
+keybert
+rapidfuzz
+bitsandbytes
+regex
