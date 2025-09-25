@@ -1,0 +1,16 @@
+torch
+numpy
+transformers
+sentence-transformers
+faiss-cpu
+ddgs
+rapidfuzz
+bitsandbytes
+regex
+flask
+vllm
+openai
+gTTS
+faster_whisper
+pydub
+psycopg2-binary

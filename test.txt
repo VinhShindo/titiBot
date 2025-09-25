@@ -1,0 +1,137 @@
+1. price_range
+Tôi muốn tìm các mẫu điện thoại có giá từ 10 đến 15 triệu.
+Có sản phẩm nào nằm trong khoảng giá từ 50.000 đến 100.000 đồng không?
+Những loại nước ngọt nào giá dưới 15.000 đồng vậy?
+Có sản phẩm công nghệ nào giá tầm 5 đến 10 triệu không?
+Các loại bia nào đang bán trong khoảng giá 15.000 đến 25.000 đồng?
+Sữa và thực phẩm chức năng nào có giá trên 100.000 đồng?
+Đồ uống nào giá rẻ dưới 5.000 đồng?
+Các mẫu điện thoại Samsung nào có giá trong khoảng 8 đến 12 triệu?
+---Truy vấn ngoài
+Giá iPhone 14 Pro Max 256GB ở các cửa hàng lớn hiện nay như thế nào?
+Samsung Galaxy S23 Ultra đã giảm giá bao nhiêu so với lúc mới ra mắt?
+Có khuyến mãi nào cho bia Tiger vào dịp lễ không?
+------------------------------------------------------------------------
+2. price
+Giá của Bia Tiger lon 330ml là bao nhiêu?
+Cho tôi biết giá niêm yết của OPPO Reno6 Z 5G.
+Sữa tươi Vinamilk không đường 1L bán bao nhiêu tiền?
+Coca-Cola vị nguyên bản lon 320ml hiện có giá thế nào?
+Bột ca cao Milo hộp 400g giá bao nhiêu vậy?
+Giá của Trà thảo mộc Dr Thanh chai 350ml là bao nhiêu?
+Nước uống thể thao Revive 500ml hiện bán bao nhiêu?
+Cho tôi biết giá Nước ép Vfresh Cam 1L.
+---Truy vấn ngoài
+Dự đoán giá Google Pixel 7 trong năm tới khoảng bao nhiêu?
+Giá bia Heineken lon 330ml trên các siêu thị online là bao nhiêu?
+Trung bình các loại trà xanh đóng chai ở Việt Nam có giá khoảng bao
+nhiêu?
+------------------------------------------------------------------------
+3. advice
+Xiaomi Redmi Note 11 phù hợp với đối tượng người dùng nào?
+Uống Sữa đậu nành Fami có lợi ích gì?
+Khi nào thì nên uống Nước thể thao Revive?
+Trà thảo mộc Dr Thanh có tác dụng gì?
+Nước yến sào Khánh Hòa thường được dùng trong trường hợp nào?
+Bia Tiger có điểm gì nổi bật so với các loại bia khác?
+Có lời khuyên gì khi sử dụng Samsung Galaxy Z Flip3 5G không?
+Nên uống Cà phê Trung Nguyên G7 trong tình huống nào?
+---Truy vấn ngoài
+Uống trà xanh thường xuyên có lợi ích gì cho sức khỏe?
+Vitamin C trong nước ép trái cây có tác dụng gì?
+Samsung Galaxy S22 Ultra có bền và chống nước tốt không?
+------------------------------------------------------------------------
+4. compare
+So sánh giá Coca-Cola và Pepsi giúp tôi.
+iPhone 14 và iPhone 13 khác nhau về RAM và chip thế nào?
+Xiaomi Redmi Note 11 và Samsung Galaxy A23 có gì khác biệt?
+Bộ nhớ của OPPO A74 so với Vivo Y20 như thế nào?
+Milo và Ovaltine khác nhau về khối lượng ra sao?
+Lavie và Aquafina khác nhau về thành phần nước gì?
+So sánh thương hiệu của Heineken và Tiger.
+Cà phê Trung Nguyên G7 và Nescafé 3in1 khác nhau về số gói trong hộp
+    không?
+---Truy vấn ngoài
+So sánh hiệu năng chơi game của Xiaomi Poco X3 Pro và Samsung Galaxy
+A53 5G.
+Camera của Huawei P40 Pro so với các flagship cùng năm thì thế nào?
+Bia Budweiser và Tiger khác nhau về hương vị và giá cả ra sao?
+------------------------------------------------------------------------
+5. product_search
+Cho tôi xem thông tin chi tiết về iPhone 14 Pro Max 128GB.
+Giá của Samsung Galaxy S22 5G hiện nay là bao nhiêu?
+Mô tả sản phẩm Bột ca cao Milo như thế nào?
+Monster Energy có dung tích bao nhiêu ml?
+Trà xanh 0° 500ml thuộc thương hiệu nào?
+Bia Heineken lon 330ml có nồng độ cồn bao nhiêu?
+OPPO Reno6 Z 5G được ra mắt năm nào?
+Thành phần của Sữa đậu nành Fami gồm những gì?
+---Truy vấn ngoài
+Người dùng đánh giá iPhone 14 Pro Max thế nào trên các diễn đàn công
+nghệ?
+Mua Bột ca cao Milo chính hãng ở đâu giá tốt?
+Nguồn gốc lịch sử của Cà phê Trung Nguyên G7 là gì?
+------------------------------------------------------------------------
+6. attribute_search
+Có điện thoại nào RAM 8GB không?
+Những sản phẩm nào có chứa thành phần caffeine?
+Điện thoại nào có màn hình lớn hơn 6.5 inch?
+Các sản phẩm nào vừa ra mắt năm 2022 và thuộc Apple?
+Có mẫu nào dùng màn hình AMOLED, ra mắt năm 2021 không?
+Điện thoại nào có bộ nhớ 256GB?
+Các loại bia hiện có nồng độ cồn bao nhiêu?
+Có sản phẩm nào dung tích 330ml không?
+---Truy vấn ngoài
+Chip Snapdragon 8 Gen 1 khác gì với Snapdragon 865?
+Công nghệ màn hình OLED có ưu điểm gì?
+Taurine mang lại lợi ích sức khỏe gì?
+------------------------------------------------------------------------
+7. general_info
+Liệt kê tất cả các loại nước tăng lực có trong dữ liệu.
+Những sản phẩm nào thuộc nhóm sữa tươi?
+Điện thoại nào sử dụng chip A15 Bionic?
+Có những loại bia nào trong danh sách sản phẩm?
+Các loại trà đóng chai hiện có là gì?
+Có những loại cà phê hòa tan nào?
+Những sản phẩm nào thuộc thương hiệu PepsiCo?
+Có sản phẩm nào ra mắt trong năm 2022 không?
+---Truy vấn ngoài
+Những thương hiệu nước tăng lực phổ biến ở Việt Nam là gì?
+Ngoài Apple, Samsung, Xiaomi, OPPO, Vivo thì còn hãng điện thoại nào
+phổ biến ở Việt Nam?
+Khác biệt giữa nước khoáng và nước tinh khiết là gì?
+------------------------------------------------------------------------
+8. Các ý định Khác
+Các thương hiệu nổi tiếng về nước tăng lực trên thế giới là gì?
+Ngoài Apple, Samsung, Xiaomi và OPPO, còn những hãng điện thoại nào phổ biến tại thị trường châu Âu và Mỹ?
+Tìm hiểu về sự khác biệt giữa nước khoáng và nước tinh khiết về thành phần và công dụng.
+Những thương hiệu sữa tươi nào phổ biến nhất tại Việt Nam hiện nay?
+Các loại bia phổ biến nào được sản xuất tại Bỉ?
+Phân tích sự khác biệt về hiệu năng giữa chip Snapdragon và chip MediaTek.
+Tìm hiểu về ưu và nhược điểm của màn hình AMOLED so với IPS LCD.
+Những loại thực phẩm nào giàu caffeine ngoài cà phê và trà?
+Danh sách các mẫu điện thoại có thời lượng pin tốt nhất hiện nay.
+Các loại màn hình điện thoại nào hỗ trợ tần số quét 120Hz?
+Lợi ích sức khỏe của việc uống trà xanh thường xuyên là gì?
+Tác dụng của lợi khuẩn probiotic trong "Sữa uống lên men Yakult" đối với hệ tiêu hóa.
+Phân tích các thành phần trong "Nước uống thể thao Revive" và công dụng của chúng.
+Những thực phẩm nào nên dùng kèm với "Bột ca cao Milo"?
+Hướng dẫn các bài tập thể thao nên kết hợp với việc uống "Nước tăng lực Monster Energy".
+
+Dự đoán xu hướng giá của "iPhone 11 64GB" trong 6 tháng cuối năm.
+Giá của "Bia Tiger lon 330ml" hiện tại ở các siêu thị lớn như Go! và Big C là bao nhiêu?
+Tìm kiếm các chương trình giảm giá của "Nước yến sào Khánh Hòa" vào dịp Tết.
+Mức giá trung bình của các loại trà xanh đóng chai tại Việt Nam là bao nhiêu?
+Các điện thoại flagship đã qua sử dụng của Samsung có giá khoảng bao nhiêu?
+
+Những mẫu điện thoại nào của Samsung ra mắt trong năm 2023?
+Đánh giá sự khác biệt về công nghệ giữa smartphone ra mắt năm 2020 và 2022.
+Các dòng iPhone ra mắt năm 2021 còn được hỗ trợ cập nhật phần mềm trong bao lâu nữa?
+Xu hướng thiết kế và công nghệ của điện thoại thông minh năm 2022 là gì?
+Các sản phẩm công nghệ mới nào được mong đợi sẽ ra mắt vào cuối năm 2025?
+
+Các sản phẩm phổ biến nhất của "Xiaomi" tại thị trường Việt Nam là gì?
+Chiến lược marketing của "Coca-Cola" và "PepsiCo" có gì khác biệt?
+Tìm hiểu về lịch sử phát triển và những thành tựu của thương hiệu "Trung Nguyên".
+Những thương hiệu nào thuộc tập đoàn Nestlé?
+Liệt kê các dòng điện thoại thông minh của Google Pixel.

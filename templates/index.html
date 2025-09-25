@@ -1,0 +1,687 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat TiTi - Người bạn tiêu dùng thông minh</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="icon" href="{{ url_for('static', filename='image/Logo.png') }}" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+
+<body>
+    <div id="confirmDialog" class="confirm-dialog">
+        <div class="confirm-content">
+            <p>Bạn có chắc chắn muốn xóa cuộc trò chuyện này không?</p>
+            <div class="confirm-buttons">
+                <button id="confirmCancelBtn" class="btn-cancel">Hủy</button>
+                <button id="confirmDeleteBtn" class="btn-delete">Xóa</button>
+            </div>
+        </div>
+    </div>
+    <div id="notification" class="notification"></div>
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner"></div>
+    </div>
+
+    <div id="registerPage" class="page">
+        <div class="background-image"></div>
+        <div class="register-container">
+            <div class="info-left">
+                <div class="logo">
+                    <span>CHAT TiTi</span>
+                </div>
+                <h1>Already have an account?</h1>
+                <p>Welcome back! Please sign in with your personal info.</p>
+            </div>
+            <div class="form-right">
+                <h2>Create Account</h2>
+                <form id="registerForm">
+                    <div class="input-group">
+                        <input type="text" id="reg_fullname" required>
+                        <label for="reg_fullname">Họ tên</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="reg_email" required>
+                        <label for="reg_email">E-MAIL</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="reg_username" required>
+                        <label for="reg_username">TÊN ĐĂNG NHẬP</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="reg_password" required>
+                        <label for="reg_password">MẬT KHẨU</label>
+                    </div>
+                    <div class="options">
+                        <label class="terms">
+                            <input type="checkbox" id="reg_terms" name="terms" required>
+                            <span class="checkmark"></span>
+                            Tôi đồng ý với <a href="#">Điều khoản & Điều kiện</a>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn-signup">SIGN UP</button>
+                    <p>Nếu bạn đã có tài khoản! <a href="#" onclick="showPage('loginPage')">Login</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="loginPage" class="page">
+        <div class="background-image"></div>
+        <div class="login-container">
+            <div class="login-left">
+                <div class="logo">
+                    <span>CHAT TiTi</span>
+                </div>
+                <h1>Don't have an account?</h1>
+                <p>Please contact your Administrator to get an account.</p>
+            </div>
+            <div class="login-right">
+                <h2>LOGIN</h2>
+                <form id="loginForm">
+                    <div class="input-group">
+                        <input type="text" id="login_username" required>
+                        <label for="login_username">TÊN ĐĂNG NHẬP</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="password" id="login_password" required>
+                        <label for="login_password">MẬT KHẨU</label>
+                    </div>
+                    <button type="submit" class="btn-signin">SIGN IN</button>
+                    <p>Nếu bạn chưa có tài khoản! <a href="#" onclick="showPage('registerPage')">Register</a></p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="chatPage" class="page chat-page">
+        <div class="chat-layout">
+            <div class="menu collapsed" id="mainMenu">
+                <button id="toggleMenuBtn" class="toggle-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu-content">
+                    <a href="#" class="menu_title" id="newConversationBtn">Cuộc trò chuyện mới</a>
+                    <div class="history-container" id="history-container"></div>
+                </div>
+            </div>
+
+            <div class="content">
+                <header class="chat-header">
+                    <div class="header-left">
+                        <span class="header-title">TiTi Bot</span>
+                    </div>
+                    <div class="header-right">
+                        <span id="userNameDisplay" class="user-name"></span>
+                        <button id="logoutBtn" class="logout-btn" onclick="logout()"><i
+                                class="fas fa-sign-out-alt"></i></button>
+                    </div>
+                </header>
+
+                <main class="chat-main">
+                    <div class="conversation_wrapper">
+                        <div class="initial-logo" id="initial-logo">
+                            <h1>TiTi Bot</h1>
+                            <p>Hãy bắt đầu cuộc trò chuyện!</p>
+                        </div>
+                        <div id="chat-container" class="chat-messages">
+                            <div id="bot-loading-indicator" class="bot-loading-indicator">
+                                <div class="spinner-mini"></div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+
+                <div class="chat-input-area">
+                    <label for="audio-file" class="icon-button upload-button">
+                        <i class="fas fa-upload"></i>
+                    </label>
+                    <input type="file" id="audio-file" accept="audio/*" style="display: none;">
+                    <button id="mic-btn" class="icon-button mic-button">
+                        <i class="fas fa-microphone"></i>
+                    </button>
+                    <input type="text" id="message-input" placeholder="Nhập tin nhắn của bạn..." class="message-input">
+                    <button id="send-btn" class="send-button">
+                        <i class="fas fa-paper-plane"></i> Gửi
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const micBtn = document.getElementById("mic-btn");
+        const audioFileInput = document.getElementById("audio-file");
+        const conversation = document.getElementById("chat-container");
+        const botLoadingIndicator = document.getElementById("bot-loading-indicator");
+        const initialLogo = document.getElementById('initial-logo');
+
+        let currentSessionId = null;
+        let currentUserName = null;
+
+        function showNotification(message, type) {
+            const notification = document.getElementById('notification');
+            notification.textContent = message;
+            notification.className = `notification show ${type}`;
+            setTimeout(() => {
+                notification.classList.remove('show');
+            }, 3000);
+        }
+
+        function showPage(pageId) {
+            document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
+            document.getElementById(pageId).classList.add("active");
+            if (pageId === 'chatPage') {
+                loadUserSessions();
+                setupChatEventListeners();
+            }
+        }
+
+        function setupChatEventListeners() {
+            const input = document.getElementById("message-input");
+            const sendBtn = document.getElementById("send-btn");
+            const newConversationBtn = document.getElementById('newConversationBtn');
+            const toggleMenuBtn = document.getElementById('toggleMenuBtn');
+            const menu = document.getElementById('mainMenu');
+
+            if (input) input.addEventListener("keypress", e => { if (e.key === "Enter") sendMessage(); });
+            if (sendBtn) sendBtn.addEventListener("click", sendMessage);
+            if (newConversationBtn) newConversationBtn.addEventListener('click', () => {
+                currentSessionId = null;
+                conversation.innerHTML = '';
+                document.querySelectorAll(".history-item").forEach(item => item.classList.remove("active"));
+                checkChatContent();
+            });
+            if (toggleMenuBtn) toggleMenuBtn.addEventListener('click', () => {
+                menu.classList.toggle('expanded');
+                menu.classList.toggle('collapsed');
+            });
+        }
+
+        async function sha256(message) {
+            const msgBuffer = new TextEncoder().encode(message);
+            const hashBuffer = await crypto.subtle.digest("SHA-256", msgBuffer);
+            const hashArray = Array.from(new Uint8Array(hashBuffer));
+            return hashArray.map(b => b.toString(16).padStart(2, "0")).join("");
+        }
+
+        // ========== ĐĂNG KÝ ==========
+        document.getElementById('registerForm').addEventListener('submit', async e => {
+            e.preventDefault();
+            const ho_ten = document.getElementById('reg_fullname').value.trim();
+            const email = document.getElementById('reg_email').value.trim();
+            const ten_dang_nhap = document.getElementById('reg_username').value.trim();
+            const mat_khau = document.getElementById('reg_password').value.trim();
+            const loadingOverlay = document.getElementById('loading-overlay');
+
+            if (!email.endsWith("@gmail.com")) {
+                showNotification("Email phải có đuôi @gmail.com", "error");
+                return;
+            }
+
+            const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&^#])[A-Za-z\d@$!%*?&^#]{8,}$/;
+            if (!passwordRegex.test(mat_khau)) {
+                showNotification("Mật khẩu phải ≥ 8 ký tự, có chữ hoa, chữ thường, số và ký tự đặc biệt.", "error");
+                return;
+            }
+
+            const hashedPassword = await sha256(mat_khau);
+
+            loadingOverlay.classList.add('show');
+            try {
+                const res = await fetch('/api/register', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ho_ten, email, ten_dang_nhap, mat_khau: hashedPassword })
+                });
+                const data = await res.json();
+                loadingOverlay.classList.remove('show');
+
+                if (res.ok) {
+                    showNotification('Đăng ký thành công!', 'success');
+                    setTimeout(() => showPage('loginPage'), 1000);
+                } else {
+                    showNotification(data.message || 'Đăng ký thất bại.', 'error');
+                }
+            } catch (err) {
+                loadingOverlay.classList.remove('show');
+                showNotification('Đã xảy ra lỗi kết nối.', 'error');
+            }
+        });
+
+        // ========== ĐĂNG NHẬP ==========
+        document.getElementById('loginForm').addEventListener('submit', async e => {
+            e.preventDefault();
+            const ten_dang_nhap = document.getElementById('login_username').value.trim();
+            const mat_khau = document.getElementById('login_password').value.trim();
+            const loadingOverlay = document.getElementById('loading-overlay');
+            const hashedPassword = await sha256(mat_khau);
+
+            loadingOverlay.classList.add('show');
+            try {
+                const res = await fetch('/api/login', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ten_dang_nhap, mat_khau: hashedPassword })
+                });
+                const data = await res.json();
+                loadingOverlay.classList.remove('show');
+
+                if (res.ok) {
+                    sessionStorage.setItem('currentUserId', data.user.ma_nguoi_dung);
+                    sessionStorage.setItem('currentUserName', data.user.ho_ten);
+                    currentSessionId = null;
+                    currentUserName = data.user.ho_ten;
+                    conversation.innerHTML = '';
+                    checkChatContent();
+                    showNotification('Đăng nhập thành công!', 'success');
+                    updateUserDisplay();
+                    setTimeout(() => showPage('chatPage'), 1000);
+                } else {
+                    showNotification(data.message || 'Đăng nhập thất bại.', 'error');
+                }
+            } catch (err) {
+                loadingOverlay.classList.remove('show');
+                showNotification('Đã xảy ra lỗi kết nối.', 'error');
+            }
+        });
+
+        async function logout() {
+            await fetch('/api/logout', { method: 'POST' });
+            sessionStorage.removeItem('currentUserId');
+            sessionStorage.removeItem('currentUserName');
+            currentSessionId = null;
+            document.getElementById('history-container').innerHTML = '';
+            conversation.innerHTML = '';
+            showNotification('Bạn đã đăng xuất.', 'info');
+            showPage('loginPage');
+        }
+
+        function updateUserDisplay() {
+            const userNameDisplay = document.getElementById('userNameDisplay');
+            if (userNameDisplay) {
+                userNameDisplay.textContent = currentUserName;
+            }
+        }
+
+        async function loadUserSessions() {
+            const userId = sessionStorage.getItem('currentUserId');
+            if (!userId) return;
+
+            try {
+                const res = await fetch('/api/sessions');
+                const data = await res.json();
+                if (res.ok) {
+                    renderHistory(data.data);
+                } else {
+                    console.error('Lỗi tải phiên:', data.message);
+                }
+            } catch (err) {
+                console.error('Lỗi kết nối:', err);
+            }
+        }
+
+        let sessionToDelete = null;
+
+        function showConfirmDialog(sessionId) {
+            sessionToDelete = sessionId;
+            document.getElementById('confirmDialog').style.display = 'flex';
+        }
+
+        function hideConfirmDialog() {
+            document.getElementById('confirmDialog').style.display = 'none';
+            sessionToDelete = null;
+        }
+
+        document.getElementById('confirmCancelBtn').addEventListener('click', hideConfirmDialog);
+        document.getElementById('confirmDeleteBtn').addEventListener('click', async () => {
+            if (sessionToDelete) {
+                await deleteSession(sessionToDelete);
+                loadUserSessions();
+            }
+            hideConfirmDialog();
+        });
+
+        function renderHistory(sessions) {
+            const historyContainer = document.getElementById("history-container");
+            if (!historyContainer) return;
+            historyContainer.innerHTML = "";
+            sessions.forEach(session => {
+                const wrapper = document.createElement("div");
+                wrapper.className = "history-item";
+                if (session.ma_phien === currentSessionId) {
+                    wrapper.classList.add('active');
+                }
+
+                const a = document.createElement("a");
+                a.href = "#";
+                a.textContent = session.tieu_de;
+                a.addEventListener("click", () => {
+                    document.querySelectorAll(".history-item").forEach(item => item.classList.remove("active"));
+                    wrapper.classList.add("active");
+                    loadConversation(session.ma_phien);
+                });
+                wrapper.appendChild(a);
+
+                const deleteBtn = document.createElement("span");
+                deleteBtn.className = "delete-btn";
+                deleteBtn.innerHTML = "&times;";
+                deleteBtn.title = "Xóa cuộc trò chuyện";
+
+                deleteBtn.addEventListener("click", (e) => {
+                    e.stopPropagation();
+                    showConfirmDialog(session.ma_phien);
+                });
+                wrapper.appendChild(deleteBtn);
+                historyContainer.appendChild(wrapper);
+            });
+        }
+
+        async function deleteSession(sessionId) {
+            try {
+                const res = await fetch(`/api/sessions/${sessionId}`, { method: 'DELETE' });
+                const data = await res.json();
+                if (res.ok) {
+                    if (currentSessionId === sessionId) {
+                        currentSessionId = null;
+                        conversation.innerHTML = '';
+                        checkChatContent();
+                    }
+                } else {
+                    showNotification(data.message || 'Lỗi khi xóa phiên.', 'error');
+                }
+            } catch (err) {
+                showNotification('Lỗi xóa phiên.', 'error');
+            }
+        }
+
+        async function loadConversation(sessionId) {
+            currentSessionId = sessionId;
+            conversation.innerHTML = '';
+            checkChatContent();
+
+            try {
+                const res = await fetch(`/api/sessions/${sessionId}/messages`);
+                const data = await res.json();
+                if (res.ok) {
+                    data.messages.forEach(msg => {
+                        addMessage(msg.nguoi_gui, msg.noi_dung);
+                    });
+                } else {
+                    showNotification('Lỗi tải tin nhắn.', 'error');
+                }
+            } catch (err) {
+                showNotification('Lỗi kết nối.', 'error');
+            }
+        }
+
+        function checkChatContent() {
+            if (conversation.children.length > 0) {
+                initialLogo.style.display = 'none';
+            } else {
+                initialLogo.style.display = 'flex';
+            }
+        }
+
+        // Thêm hàm mới để render danh sách sản phẩm
+        function renderProductList(products) {
+            const container = document.createElement("div");
+            container.className = "product-list-container";
+
+            const intro = document.createElement("p");
+            intro.textContent = "Dưới đây là một số sản phẩm bạn có thể tham khảo:";
+            container.appendChild(intro);
+
+            products.forEach(product => {
+                const card = document.createElement("div");
+                card.className = "product-card";
+
+                const productName = document.createElement("h3");
+                productName.textContent = product.name;
+
+                const productPrice = document.createElement("p");
+                productPrice.className = "price";
+                productPrice.textContent = product.price;
+
+                const productFeatures = document.createElement("ul");
+                product.features.forEach(feature => {
+                    const li = document.createElement("li");
+                    li.textContent = feature;
+                    productFeatures.appendChild(li);
+                });
+
+                const productRecommendation = document.createElement("p");
+                productRecommendation.className = "recommendation";
+                productRecommendation.textContent = `Khuyến nghị: ${product.recommendation}`;
+
+                card.appendChild(productName);
+                card.appendChild(productPrice);
+                card.appendChild(productFeatures);
+                card.appendChild(productRecommendation);
+
+                container.appendChild(card);
+            });
+
+            return container;
+        }
+
+        function addBotMessage(data) {
+            const chatContainer = document.getElementById("chat-container");
+
+            if (typeof data === 'string') {
+                // bot trả văn bản
+                const wrapper = document.createElement("div");
+                wrapper.className = "message bot";
+
+                const contentDiv = document.createElement("div");
+                contentDiv.className = "message-content";
+                const p = document.createElement("p");
+                p.innerHTML = marked.parse(data);
+                contentDiv.appendChild(p);
+
+                const iconDiv = document.createElement("div");
+                iconDiv.className = "message-icon";
+                const loa = document.createElement("i");
+                loa.className = "fas fa-volume-up icon_loa";
+                loa.addEventListener("click", () => playTTS(data));
+                iconDiv.appendChild(loa);
+
+                wrapper.appendChild(contentDiv);
+                wrapper.appendChild(iconDiv);
+                chatContainer.appendChild(wrapper);
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            } else if (Array.isArray(data)) {
+                // bot trả mảng sản phẩm
+                data.forEach(product => {
+                    const wrapper = document.createElement("div");
+                    wrapper.className = "message bot";
+
+                    const card = document.createElement("div");
+                    card.className = "product-card";
+                    card.innerHTML = `
+        <h3>${product.name}</h3>
+        <p><strong>Giá:</strong> ${product.price}</p>
+        <p><strong>Thương hiệu:</strong> ${product.brand}</p>
+        <ul>${product.pros.map(x => `<li>${x}</li>`).join('')}</ul>
+        <p class="recommend">${product.recommendation}</p>
+      `;
+
+                    const iconDiv = document.createElement("div");
+                    iconDiv.className = "message-icon";
+                    const loa = document.createElement("i");
+                    loa.className = "fas fa-volume-up icon_loa";
+                    loa.addEventListener("click", () => {
+                        const ttsText = `${product.name}, Giá ${product.price}, ${product.recommendation}`;
+                        playTTS(ttsText);
+                    });
+                    iconDiv.appendChild(loa);
+
+                    wrapper.appendChild(card);
+                    wrapper.appendChild(iconDiv);
+                    chatContainer.appendChild(wrapper);
+                });
+                chatContainer.scrollTop = chatContainer.scrollHeight;
+            }
+        }
+
+        // Cập nhật hàm addMessage
+        function addMessage(sender, content) {
+            const wrapper = document.createElement("div");
+            wrapper.className = `message ${sender}`;
+            const messageContent = document.createElement("div");
+            messageContent.className = "message-content";
+
+            let textForTTS = "";
+
+            if (sender === "bot") {
+                if (typeof content === 'object' && content.type === 'product_list') {
+                    const productListElement = renderProductList(content.products);
+                    messageContent.appendChild(productListElement);
+
+                    textForTTS = "Dưới đây là một số sản phẩm bạn có thể tham khảo. ";
+                    content.products.forEach(p => {
+                        textForTTS += `${p.name} có giá ${p.price}. ${p.recommendation}. `;
+                    });
+
+                } else {
+                    const p = document.createElement("p");
+                    p.innerHTML = marked.parse(content);
+                    messageContent.appendChild(p);
+                    textForTTS = content;
+                }
+
+                wrapper.appendChild(messageContent);
+
+                const loa = document.createElement("i");
+                loa.className = "fas fa-volume-up icon_loa";
+                loa.addEventListener("click", () => {
+                    fetch('/tts', {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({ text: textForTTS })
+                    })
+                        .then(res => res.ok ? res.blob() : Promise.reject('Lỗi TTS'))
+                        .then(blob => new Audio(URL.createObjectURL(blob)).play())
+                        .catch(err => console.error(err));
+                });
+                wrapper.appendChild(loa);
+
+            } else {
+                const p = document.createElement("p");
+                p.innerHTML = content;
+                wrapper.appendChild(p);
+            }
+
+            conversation.appendChild(wrapper);
+            conversation.scrollTop = conversation.scrollHeight;
+            checkChatContent();
+        }
+
+        async function sendMessage() {
+            const input = document.getElementById("message-input");
+            const text = input.value.trim();
+            if (!text) return;
+
+            addMessage("user", text);
+            input.value = "";
+
+            botLoadingIndicator.style.display = "flex";
+            conversation.appendChild(botLoadingIndicator);
+            conversation.scrollTop = conversation.scrollHeight;
+
+            try {
+                const res = await fetch('/chat', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ message: text, sessionId: currentSessionId })
+                });
+                const data = await res.json();
+
+                botLoadingIndicator.style.display = "none";
+
+                if (res.ok) {
+                    if (data.sessionId && data.sessionId !== currentSessionId) {
+                        currentSessionId = data.sessionId;
+                        loadUserSessions();
+                    }
+                    addBotMessage(data.response);
+                } else {
+                    addBotMessage({ type: 'text', content: data.message || 'Lỗi: Không nhận được phản hồi.' });
+                }
+            } catch (err) {
+                botLoadingIndicator.style.display = "none";
+                addBotMessage({ type: 'text', content: "Đã xảy ra lỗi khi kết nối với máy chủ." });
+            }
+        }
+
+        let mediaRecorder, audioChunks = [];
+
+        micBtn.addEventListener("click", () => {
+            if (micBtn.classList.contains("recording")) {
+                micBtn.classList.remove("recording");
+                mediaRecorder.stop();
+            } else {
+                micBtn.classList.add("recording");
+                audioChunks = [];
+                navigator.mediaDevices.getUserMedia({ audio: true })
+                    .then(stream => {
+                        mediaRecorder = new MediaRecorder(stream);
+                        mediaRecorder.ondataavailable = e => audioChunks.push(e.data);
+                        mediaRecorder.onstop = () => {
+                            const audioBlob = new Blob(audioChunks, { type: 'audio/webm' });
+                            const formData = new FormData();
+                            formData.append('audio', audioBlob, 'recording.webm');
+                            fetch('/stt', { method: 'POST', body: formData })
+                                .then(res => res.json())
+                                .then(data => {
+                                    if (data.transcript) {
+                                        document.getElementById("message-input").value = data.transcript;
+                                    } else {
+                                        alert("Lỗi STT: " + (data.error || 'Unknown error'));
+                                    }
+                                })
+                                .catch(err => console.error("Lỗi STT:", err));
+                        };
+                        mediaRecorder.start();
+                    })
+                    .catch(err => {
+                        console.error(err);
+                        alert("Không thể truy cập micro. Vui lòng cho phép quyền truy cập.");
+                    });
+            }
+        });
+
+        audioFileInput.addEventListener("change", event => {
+            const file = event.target.files[0];
+            if (!file) return;
+            const formData = new FormData();
+            formData.append('audio', file);
+            fetch('/stt', { method: 'POST', body: formData })
+                .then(res => res.json())
+                .then(data => {
+                    if (data.transcript) {
+                        document.getElementById("message-input").value = data.transcript;
+                    } else {
+                        alert("Lỗi STT: " + (data.error || 'Unknown error'));
+                    }
+                })
+                .catch(err => console.error("Lỗi STT:", err));
+        });
+
+        window.onload = () => {
+            currentUserName = sessionStorage.getItem('currentUserName');
+            const userId = sessionStorage.getItem('currentUserId');
+            if (userId) {
+                updateUserDisplay();
+                showPage('chatPage');
+            } else {
+                showPage('loginPage');
+            }
+        };
+    </script>
+</body>
+
+</html>
